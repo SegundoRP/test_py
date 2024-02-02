@@ -24,3 +24,8 @@ diccionario = {'clave1': 1, 'clave2': 2}
 print(diccionario['clave1'])
 diccionario.pop('clave1')
 print(diccionario)
+
+
+print(True and True)
+print(True and False)
+print(True or False)
