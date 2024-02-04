@@ -29,3 +29,21 @@ print(diccionario)
 print(True and True)
 print(True and False)
 print(True or False)
+
+BOOLEAN = True
+
+if BOOLEAN:
+    print('inside condition')
+# elif
+# else
+
+CONTADOR = 5
+
+while CONTADOR <=10:
+    print('CONTADOR vale', CONTADOR)
+
+    if CONTADOR == 5:
+        print('rompe CONTADOR')
+        break
+
+    CONTADOR += 1
