@@ -61,3 +61,16 @@ else:
 for number in range(1, 10):
     # Last number is not in the range
     print(number)
+
+
+def my_method(*args):
+    print(args)
+    # args is a tuple
+
+my_method(1,2,3,4) # (1,2,3,4)
+
+def my_method2(**kwargs):
+    print(kwargs)
+    # kwargs is a dictionary
+
+my_method2(a= 1, b= 2, c= 3, d= 4) # {'a': 1,'b': 2, 'c': 3, 'd': 4}
