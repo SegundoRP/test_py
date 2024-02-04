@@ -57,3 +57,7 @@ for palabra in lista:
         break
 else:
     print('palabra no encontrada')
+
+for number in range(1, 10):
+    # Last number is not in the range
+    print(number)
