@@ -47,3 +47,13 @@ while CONTADOR <=10:
         break
 
     CONTADOR += 1
+
+
+lista = ['palabra1', 'palabra3']
+
+for palabra in lista:
+    if palabra == 'palabra2':
+        print('palabra encontrada')
+        break
+else:
+    print('palabra no encontrada')
