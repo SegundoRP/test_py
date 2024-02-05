@@ -74,3 +74,15 @@ def my_method2(**kwargs):
     # kwargs is a dictionary
 
 my_method2(a= 1, b= 2, c= 3, d= 4) # {'a': 1,'b': 2, 'c': 3, 'd': 4}
+
+class Human():
+    nombre = None
+
+    def __init__(self, nombre):
+        self.nombre = nombre
+
+    def greeting(self):
+        print(f'Hola soy {self.nombre}')
+
+human = Human('Segundo')
+print(human.greeting)
