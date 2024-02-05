@@ -85,4 +85,4 @@ class Human():
         print(f'Hola soy {self.nombre}')
 
 human = Human('Segundo')
-print(human.greeting)
+human.greeting()
