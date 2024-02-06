@@ -86,3 +86,7 @@ class Human():
 
 human = Human('Segundo')
 human.greeting()
+
+name = 'Segundo'
+
+print(f'Hola {name}')
