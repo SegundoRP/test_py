@@ -12,3 +12,8 @@ def index():
 @app.route('/hello')
 def hello():
     return '<h1>Hello world!</h1>'
+
+# By default parameters are strings
+@app.route('/greetings/<int:age>')
+def greetings(age):
+    return f'<h1>werffwerfwerd! {age}</h1>'
