@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 # represents flask app
 app = Flask(__name__)
@@ -20,6 +20,11 @@ def greetings(age):
 
 from markupsafe import escape
 
-@app.route('code/<path:code>')
+@app.route('/code/<path:code>')
 def code(code):
     return f'<code>{escape(code)}</code>'
+
+@app.route('/example')
+def example():
+    numbers_list = [1, 2, 3, 4]
+    return render_template('example.html', numbers_list = numbers_list)
