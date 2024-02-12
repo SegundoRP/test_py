@@ -3,6 +3,9 @@ from flask import Flask, render_template
 # represents flask app
 app = Flask(__name__)
 
+if __name__ == '__main__':
+    app.run()
+
 # represents principal route
 @app.route('/')
 @app.route('/index')
